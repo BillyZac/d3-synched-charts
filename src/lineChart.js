@@ -1,3 +1,5 @@
+var d3 = require('d3')
+
 module.exports = function lineChart(data) {
   var dates = data.map(item => (item.date))
   var values = data.map(item => (item.value))

@@ -1,3 +1,4 @@
+var d3 = require('d3')
 var moment = require('moment')
 var getXPosition = require('./getXPosition')
 var getY = require('./getY')
