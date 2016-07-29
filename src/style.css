@@ -1,0 +1,49 @@
+svg > * > * {
+  /*outline: 1px solid pink;*/
+}
+
+body {
+  font: 10px sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+svg {
+  /*outline: 1px solid #eee;*/
+}
+
+.line {
+  fill: none;
+  stroke: tomato;
+}
+
+.datapoint {
+  opacity: 0.5;
+}
+
+.scrubber {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: 3px;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.2s linear;
+}
+
+.info-box {
+  width: 200px;
+  position: fixed;
+  top: 0;
+  right: 20px;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.1s linear;
+}
+
+.info-box .y1-label,
+.info-box .y2-label {
+  background: #333;
+  color: white;
+  padding: 3px;
+  margin-right: 3px;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "d3-synched-charts",
+  "version": "1.0.0",
+  "description": "Two D3 charts in one.",
+  "main": "",
+  "scripts": {
+    "build": "webpack --watch",
+    "start": "cd public && httpster"
+  },
+  "author": "Zac Smith",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "html-webpack-plugin": "^2.22.0",
+    "httpster": "^1.0.3",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "moment": "^2.14.1"
+  }
+}
