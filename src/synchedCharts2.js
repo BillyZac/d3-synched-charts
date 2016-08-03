@@ -122,6 +122,7 @@ function updateInfo(info) {
 d3.select('#chart-container')
   .on('mousemove', function() {
     var xPosition = getXPosition(this)
+    
     d3.selectAll('.scrubber')
       .style('visibility', 'visible')
       .style('opacity', '0.5')

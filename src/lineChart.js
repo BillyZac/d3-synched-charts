@@ -45,6 +45,7 @@ module.exports = function lineChart(data) {
       return yScale(d.value)
     })
 
+  console.log('data:', data);
   svg.append("path")
    .datum(data)
    .attr("class", "line")
